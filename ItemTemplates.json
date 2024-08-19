@@ -1,0 +1,22 @@
+[
+    {
+        "index": 6666,
+        "name": "Humanoid Corpse",
+        "baseWeight": 0.1,
+        "hitPoints": 1,
+        "capacityOrTarget": 0,
+        "basePrice": 0,
+        "enchantmentPoints": 0,
+        "rarity": 50,
+        "variants": 0,
+        "drawOrderOrEffect": 0,
+        "isBluntWeapon": false,
+        "isLiquid": true,
+        "isOneHanded": false,
+        "isIngredient": false,
+        "worldTextureArchive": 380,
+        "worldTextureRecord": 1,
+        "playerTextureArchive": 0,
+        "playerTextureRecord": 0
+    }
+]
