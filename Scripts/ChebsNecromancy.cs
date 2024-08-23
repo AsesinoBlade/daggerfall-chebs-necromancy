@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DaggerfallConnect;
@@ -740,7 +740,7 @@ namespace ChebsNecromancyMod
                 ? successMessages[random.Next(0, successMessages.Count)]
                 : failureMessages[random.Next(0, failureMessages.Count)];
             DaggerfallUI.AddHUDText(pick.Key);
-            if (success) player.Items.AddItem(CustomCorpseItem.Create());
+            if (success && CorpseItemEnabled) player.Items.AddItem(CustomCorpseItem.Create());
             if (pick.Value != null) player.Items.AddItem(pick.Value);
 
             alreadyLootedGraves.Add(instanceId, 0);
